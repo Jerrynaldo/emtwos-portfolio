@@ -32,7 +32,6 @@ header>a {
 }
 
 
-
 .nav-bar ul{
     list-style: none;
     text-decoration: none;
@@ -42,6 +41,7 @@ header>a {
 
 .nav-bar ul a {
     color: #fff;
+    font-size: 12px;
     text-decoration: none;
     margin-left: 20px;
 }
@@ -115,6 +115,55 @@ header>a {
 
 /* about section styles */
 .about {
-    background-color: blueviolet;
-    height: 600px;
+    background-color: #dbdbdb;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    padding: 60px;
 }
+
+.right-wrapper {
+    width: 50%;
+}
+
+.right-wrapper h2 {
+    color: rgb(86, 1, 165);
+    margin-bottom: 10px;
+}
+
+.right-wrapper p {
+    color: black;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.right-wrapper button {
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid rgb(108, 15, 194);
+    border-radius: 8px;
+    background-color: rgb(108, 15, 194);
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+.left-wrapper {
+    width: 50%;
+    padding-left: 20px;
+}
+.left-wrapper img {
+    border: 15px solid rgb(60, 0, 112);
+    border-radius: 12px;
+    box-shadow: 5px 8px 30px grey;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+}
+
+.icons 
