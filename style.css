@@ -52,21 +52,21 @@ header>a {
     height: 600px;
 }
 
-.wrapper {
+.hero-wrapper {
     padding:200px 10%;
     width: 50%;
 }
 
-.wrapper h1 {
+.hero-wrapper h1 {
     font-size: 50px;
     color: #fff;
 }
 
-.wrapper h2 {
+.hero-wrapper h2 {
     color: blueviolet;
 }
 
-.wrapper p {
+.hero-wrapper p {
     color: #fff;
     padding: 20px 0;
 }
@@ -156,7 +156,7 @@ header>a {
 }
 .left-wrapper img {
     border: 15px solid rgb(60, 0, 112);
-    border-radius: 12px;
+    border-radius: 25px;
     box-shadow: 5px 8px 30px grey;
 }
 
@@ -166,4 +166,4 @@ header>a {
     width: 38%;
 }
 
-.icons 
+/* Services Section style */
