@@ -6,7 +6,7 @@
 }
 
 header {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     left: 0;
     display: flex;
@@ -115,7 +115,7 @@ header>a {
 
 /* about section styles */
 .about {
-    background-color: #dbdbdb;
+    background-color: #d5bdda;
     height: 800px;
     display: flex;
     align-items: center;
@@ -167,3 +167,95 @@ header>a {
 }
 
 /* Services Section style */
+.services {
+    height: 1170px;
+    padding: 100px;
+}
+
+.services h2 {
+    text-align: center;
+    color: rgb(86, 1, 165);
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.services-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Fashion Area styles */
+#fashion {
+
+}
+
+.a-img-div {
+    margin-bottom: 50px;
+}
+
+.a-img-div img {
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px;
+}
+
+#fsh {
+    rotate: -15deg;
+}
+
+#fashion ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+#fashion ul li {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+/* Makeup area styles */
+#makeup {
+
+}
+
+#mkp {
+    rotate: 15deg;
+}
+
+#makeup ul {
+    list-style: none;
+    height: 171px;
+    margin-bottom: 30px;
+}
+
+#makeup ul li {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+/* Portfolio Section Styles */
+.portfolio {
+    background-color: blueviolet;
+    height: 800px;
+    border-top-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    padding: 100px;
+}
+
+.portfolio .container>h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.portfolio .container>p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
