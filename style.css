@@ -259,3 +259,8 @@ header>a {
     text-align: center;
     margin-bottom: 50px;
 }
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+}
