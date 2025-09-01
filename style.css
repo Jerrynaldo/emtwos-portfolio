@@ -264,3 +264,10 @@ header>a {
     display: flex;
     justify-content: space-between;
 }
+
+/* Reviewa */
+.reviews {
+    padding: 100px;
+    display: flex;
+    background-color: #d5bdda;
+}
