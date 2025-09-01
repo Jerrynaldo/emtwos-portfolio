@@ -265,9 +265,42 @@ header>a {
     justify-content: space-between;
 }
 
-/* Reviewa */
+/* Reviews */
 .reviews {
-    padding: 100px;
+    padding: 100px 0px;
     display: flex;
+    justify-content: space-evenly;
     background-color: #d5bdda;
+    height: 800px;
 }
+
+.reviews .container {
+    padding: 25px;
+    background-color: #fff;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 2px 7px 20px grey;
+}
+
+.container img {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.container h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.container span {
+    font-size: 13px;
+    color: grey;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.container p {
+    font-size: 13px;
+}
+
