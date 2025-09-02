@@ -281,11 +281,15 @@ header>a {
 
 /* Reviews */
 .reviews {
-    padding: 100px 0px;
-    display: flex;
-    justify-content: space-evenly;
+    padding: 60px 0px;
     background-color: #d5bdda;
     height: 450px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
 }
 
 .reviews .container {
@@ -297,9 +301,9 @@ header>a {
     box-shadow: 2px 7px 20px grey;
 }
 
-.reviews h2 {
+.reviews-wrapper h2 {
     color: #b078c8;
-    text-align: center;
+   text-align: center;
     margin-bottom: 20px;
 }
 
@@ -343,6 +347,11 @@ header>a {
     border-radius: 15px;
     box-shadow: 2px 5px 20px grey;
     padding: 35px;
+}
+
+.contact-me>h2 {
+    color: #b078c8;
+    margin-bottom: 5px;
 }
 
 .left-div img {
@@ -430,6 +439,7 @@ form input {
 #email, #sub {
     width: 550px;
 }
+
 textarea {
     border: 3px solid #ceaad5;
     border-radius: 15px;
