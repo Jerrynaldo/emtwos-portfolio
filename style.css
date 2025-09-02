@@ -271,13 +271,13 @@ header>a {
     display: flex;
     justify-content: space-evenly;
     background-color: #d5bdda;
-    height: 800px;
+    height: 450px;
 }
 
 .reviews .container {
     padding: 25px;
-    background-color: #fff;
-    height: 300px;
+    background-color: #ffeefd;
+    height: 250px;
     width: 300px;
     border-radius: 15px;
     box-shadow: 2px 7px 20px grey;
@@ -304,3 +304,68 @@ header>a {
     font-size: 13px;
 }
 
+/* Contact Me Section Styles */
+.contact-me {
+    padding: 100px;
+}
+.cm-wrapper {
+    display: flex;
+    gap: 25px;
+}
+
+/* Left div Styles */
+.cm-wrapper .left-div {
+    width: 40%;
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 20px grey;
+    padding: 35px;
+}
+
+.left-div img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.left-div h2 {
+    padding: 10px 0;
+}
+
+.left-div h3 {
+    color: grey;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.left-div p {
+    margin-bottom: 25px;
+}
+
+.left-div span {
+    color: purple;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.contact-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-icons .i-div {
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px rgb(86, 8, 158);
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Right Div Styles */
+.right-div {
+    box-shadow: 2px 5px 20px grey;
+    height: 550px;
+    padding: 15px;
+    width: 60%;
+    border-radius: 15px;
+}
