@@ -240,17 +240,18 @@ header>a {
 
 /* Portfolio Section Styles */
 .portfolio {
-    background-color: blueviolet;
+    background-color: rgb(26, 0, 49);
     height: 800px;
     border-top-left-radius: 130px;
     border-bottom-right-radius: 130px;
-    padding: 100px;
+    padding: 90px;
 }
 
 .portfolio .container>h2 {
     text-align: center;
     color: #fff;
     font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
     margin-bottom: 20px;
 }
 
@@ -261,8 +262,21 @@ header>a {
 }
 
 .grid {
+    
+}
+
+.grid .mini-imgs {
     display: flex;
     justify-content: space-between;
+}
+
+.mini-imgs #d-1 {
+    display: ;
+}
+
+.mini-imgs #d-2 {
+    display: flex;
+    gap: 15px;
 }
 
 /* Reviews */
@@ -276,11 +290,17 @@ header>a {
 
 .reviews .container {
     padding: 25px;
-    background-color: #ffeefd;
+    background-color: #ceaad5;
     height: 250px;
     width: 300px;
     border-radius: 15px;
     box-shadow: 2px 7px 20px grey;
+}
+
+.reviews h2 {
+    color: #b078c8;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .container img {
@@ -307,6 +327,8 @@ header>a {
 /* Contact Me Section Styles */
 .contact-me {
     padding: 100px;
+    background-color: #ceaad5;
+    
 }
 .cm-wrapper {
     display: flex;
@@ -315,6 +337,7 @@ header>a {
 
 /* Left div Styles */
 .cm-wrapper .left-div {
+    background-color: #d5bdda;
     width: 40%;
     height: 550px;
     border-radius: 15px;
@@ -329,21 +352,24 @@ header>a {
 
 .left-div h2 {
     padding: 10px 0;
+    font-family: cursive;
 }
 
 .left-div h3 {
-    color: grey;
-    font-weight: 500;
-    margin-bottom: 15px;
+    font-size: 16px;
+    color: #35054a;
+    font-weight: 550;
+    margin-bottom: 30px;
 }
 .left-div p {
     margin-bottom: 25px;
 }
 
 .left-div span {
-    color: purple;
+    color: rgb(133, 21, 181);
     font-size: 22px;
     font-weight: 100;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .contact-icons {
@@ -363,9 +389,49 @@ header>a {
 
 /* Right Div Styles */
 .right-div {
+    background-color: #d5bdda;
     box-shadow: 2px 5px 20px grey;
     height: 550px;
     padding: 15px;
     width: 60%;
     border-radius: 15px;
+}
+
+.right-div form {
+    padding: 30px;
+}
+
+form .top-div {
+    display: flex;
+    gap: 80px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+    border: 3px solid #bd90d1;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.reg-divs {
+    margin-top: 25px;
+}
+
+#name, #number {
+    width: 135%;
+}
+
+#email, #sub {
+    width: 550px;
+}
+textarea {
+    border: 3px solid #ceaad5;
+    border-radius: 15px;
+    padding: 10px;
 }
