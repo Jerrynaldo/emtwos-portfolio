@@ -247,7 +247,39 @@ header>a {
     padding: 90px 120px;
 }
 
+.portfolio #container {
+    display: flex;
+    gap: 50px;
+}
 
+.right-p-div .card {
+    background: #b078c8;
+    margin: 0 15px 15px 0;
+    border-radius: 5px;
+    height: 275px;
+    padding: 20px;
+}
+
+.right-p-div .card img {
+    width: 100%;
+}
+
+.right-p-div .card a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #9357ac;
+    color: #000;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+.right-p-div .top-div {
+    display: flex;
+}
+
+.right-p-div .bottom-div {
+    display: flex;
+}
 
 /* Reviews */
 .reviews {
