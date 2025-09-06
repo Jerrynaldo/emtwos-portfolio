@@ -254,6 +254,14 @@ header>a {
 
 #container h2 {
     color: #fff;
+    padding-bottom: 15px;
+    font-family: cursive;
+}
+
+#container p {
+    color: #b078c8;
+    font-size: 15px;
+    margin-bottom: 15px;
 }
 
 .right-p-div .card {
