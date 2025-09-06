@@ -305,6 +305,15 @@ header>a {
     display: flex;
 }
 
+#portfolio-button {
+    color: #bd90d1;
+    text-decoration: none;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #bd90d1;
+    width: 180px;
+}
+
 /* Reviews */
 .reviews {
     padding: 60px 0px;
