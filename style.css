@@ -305,13 +305,18 @@ header>a {
     display: flex;
 }
 
-#portfolio-button {
+.view-all {
+    width: 500px;
+    margin-top: 5px;
+}
+
+ .view-all #portfolio-button {
     color: #bd90d1;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: transparent;
     border: 2px solid #bd90d1;
-    width: 180px;
+    border-radius: 10px;
 }
 
 /* Reviews */
