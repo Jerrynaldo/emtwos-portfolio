@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.makeup-sec {
+    padding: 100px;
+    
+}
+
+.makeup-sec .top, .bottom {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.top img, .bottom img {
+    border-radius: 10px;
+}
